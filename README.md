@@ -3,7 +3,7 @@
 
 ___
 
-![Rossmann logo](img/rossmann_logo.png "Rossmann Logo")
+![Rossmann logo](img/rossmann-logo.jpeg "Rossmann Logo")
 
 A Rossmann opera mais de 4.000 drogarias em 8 países europeus e cerca de 56 mil colaboradores.
 
@@ -255,6 +255,20 @@ Como resultado final, temos os seguintes cenários:
 | Pior Cenário   | $261,634,657.03 |
 | Melhor Cenário | $264,662,415.89 |
 
+### 7.1 Publicação do Modelo em Produção (Model Deploy)
+
+___
+
+Conforme já mencionado, o modelo em produção com a previsão dos resultados financeiros de cada loja pode ser consultado via bot do Telegram. A idéia dessa forma de visualização foi executada visando a praticidade e agilidade quando da verificação do resultado individual de uma loja, necessitando apenas de um dispositivo celular conectado a internet de forma a facilitar o acesso do time de negócios para a tomada de decisões.
+O Bot irá retornar o valor de previsão de vendas para as próximas semanas da loja que o cliente selecionar. Para isso, basta apenas que o cliente digite o número da loja em uma conversa com o bot no telegram, que retornará o valor da previsão ou uma mensagem de feedback caso o número digitado não tenha loja correspondente no banco de dados.
+
+ <div align="center">
+
+|         **Click no botão abaixo para conversar com o Rossmann bot**        |
+|:------------------------:|
+|        [![image](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rossmann_predictions_bot)
+</div>
+
 ## 8. Conclusões
 
 ___
@@ -282,3 +296,30 @@ ___
 - Implementar testes unitários nas classes e funções produzidas.
 - Criar novas __Features__ para tentar melhorar a perfomance do modelo atual e de modelos futuros.
 - Aplicar técnicas de programação para melhorar o desempenho da solução criada.
+
+
+## 11. Ferramentas e Técnicas Usadas
+
+___
+
+- [Python 3.8.0](!https://www.python.org/downloads/release/python-380/), [Pandas](!https://pandas.pydata.org/), [Matplotlib](!https://matplotlib.org/), [Seaborn](!https://seaborn.pydata.org/) e [Sklearn](!https://scikit-learn.org/stable/)
+- [Jupyter Notebook](!https://jupyter.org/) e [VS Code](!https://code.visualstudio.com/)
+- [Flask](!https://flask.palletsprojects.com/en/2.2.x/) e [API's Python](!https://flask.palletsprojects.com/en/2.2.x/)
+- [Heroku Cloud](!https://www.heroku.com/), [Render Cloud](!https://render.com/) e [Telegram Bot](!https://core.telegram.org/bots/api)
+- [Git](!https://git-scm.com/) e [GitHub](!https://github.com/)
+- [Análise Exploratória de Dados](!https://www.ibm.com/br-pt/cloud/learn/exploratory-data-analysis)
+- [Técnicas para seleção de atributos previsores relevantes](!https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/) e [Boruta](!https://medium.com/data-hackers/como-selecionar-melhores-vari%C3%A1veis-para-o-seu-modelo-com-boruta-ef7cbfb3fc35)
+- [Algoritmos de Regressão; Regressão Linear Simples, Regressão LASSO, Random Forest e XGBoost](!https://towardsdatascience.com/7-of-the-most-commonly-used-regression-algorithms-and-how-to-choose-the-right-one-fc3c8890f9e3)
+- [Método de Validação Cruzada (Cross Validation test)](!https://medium.com/@soumyachess1496/cross-validation-in-time-series-566ae4981ce4), [Otimização de escolha de Hiperparâmetros](!https://towardsdatascience.com/7-hyperparameter-optimization-techniques-every-data-scientist-should-know-12cdebe713da) e [Métricas de Performance de Algoritmos: MAE, MAPE e RMSE](!https://machinelearningmastery.com/regression-metrics-for-machine-learning/#:~:text=There%20are%20three%20error%20metrics,Mean%20Absolute%20Error%20(MAE))
+
+## 12.Contatos
+
+___
+
+- andre.menezes@unesp.br ou andalves994@gmail.com
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andremenezes994/)
+
+
+
+
+
