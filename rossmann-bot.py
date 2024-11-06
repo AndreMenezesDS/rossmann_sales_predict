@@ -67,7 +67,7 @@ def predict(data):
 
     #Deploy in Render
     #url = 'https://rossmann-sales-predict-api.onrender.com/rossmann/predict'
-    url = 'https://rossmann-sales-prediction-bot.onrender.com/rossmann/predict'
+    url = 'https://rossmann-sales-prediction-bot.onrender.com/'
 
     header = { 'Content-type': 'application/json'}
     data = data
