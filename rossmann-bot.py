@@ -65,7 +65,8 @@ def predict(data):
     #url = 'https://rossmann-model.herokuapp.com/rossmann/predict'
 
     #Deploy in Render
-    url = 'https://rossmann-sales-predict-api.onrender.com/rossmann/predict'
+    #url = 'https://rossmann-sales-predict-api.onrender.com/rossmann/predict'
+    url = 'https://rossmann-sales-prediction-bot.onrender.com/rossmann/predict'
 
     header = { 'Content-type': 'application/json'}
     data = data
